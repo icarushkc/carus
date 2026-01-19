@@ -1,0 +1,250 @@
+export const contactInfo = {
+    email: "carus8074@gmail.com",
+    phone: "+961 76 151 680"
+};
+
+export const translations = {
+    ar: {
+        language: "ar",
+        dir: "rtl",
+        name: "carus",
+        heroTitle: "carus",
+        heroSubtitle: "مرآة أفكارك.",
+        cta: "أطلب موقعك الآن",
+        servicesTitle: "مميزات",
+        servicesDesc: "أقدم التالي:",
+        footerDesc: "مرآة أفكارك.",
+        settings: "الإعدادات",
+        theme: "المظهر",
+        dark: "مظهر داكن",
+        light: "مظهر فاتح",
+        colors: "الألوان",
+        language: "اللغة",
+        links: "روابط سريعة",
+        contact: "للتواصل معي",
+        legal: "أمور قانونية",
+        terms: "الشروط والأحكام",
+        cookies: "سياسة الكوكيز",
+        rights: "جميع الحقوق محفوظة.",
+        followMe: "تابعني",
+        tiktok: "تيك توك",
+        instagram: "إنستقرام",
+        available: "متاح لمشاريع جديدة",
+        socials: "حساباتي",
+        nav: { home: "الرئيسية", services: "مميزات", work: "أعمالي", contact: "اتصل بي" },
+        orderForm: {
+            title: "طلب مشروع جديد",
+            subtitle: "املأ البيانات التالية وسأقوم بالرد عليك في أقرب وقت.",
+            name: "الاسم واسم العائلة",
+            idea: "فكرة المشروع",
+            deadline: "المهلة الزمنية للتسليم",
+            budget: "الأجر",
+            notes: "ملاحظات إضافية (اختياري)",
+            contact: "وسيلة تواصل بديلة (اختياري)",
+            payment: "طريقة الدفع المفضلة",
+            country: "البلد",
+            city: "المنطقة / المدينة (اختياري)",
+            submitWhatsApp: "إرسال عبر واتسأب",
+            submitTelegram: "إرسال عبر تليجرام",
+            submitEmail: "إرسال عبر جيميل",
+            copiedMsg: "تم نسخ الطلب! الرجاء لصقه في المحادثة",
+            validationMsg: "الرجاء ملئ جميع الخانات المطلوبة",
+            msgLabels: {
+                title: "🚀 طلب مشروع جديد",
+                name: "👤 الاسم",
+                country: "🌍 البلد",
+                city: "📍 المنطقة / المدينة",
+                idea: "💡 فكرة المشروع",
+                deadline: "⏱️ المهلة الزمنية",
+                budget: "💰 الأجر المتوقع",
+                alt_contact: "📱 وسيلة تواصل بديلة",
+                payment: "💳 طريقة الدفع",
+                notes: "📝 ملاحظات إضافية"
+            },
+            close: "إغلاق",
+            paymentMethods: [
+                "Visa / Card",
+                "Wish Money",
+                "OMT",
+                "Western Union",
+                "Cash",
+                "Other"
+            ]
+        },
+        footerLinks: { about: "نبذة عني", services: "مميزات", work: "أعمالي" },
+        serviceItems: [
+            {
+                title: "تطوير المواقع",
+                features: ["تصاميم جذابة", "سهلة الاستخدام", "ضمان صيانة بلا نهاية"],
+                svgPath: "M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
+            },
+            {
+                title: "صيانة مواقع",
+                features: ["إصلاح المشاكل", "تحسين التصميم"],
+                svgPath: "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+            }
+        ]
+    },
+    en: {
+        language: "en",
+        dir: "ltr",
+        name: "carus",
+        heroTitle: "carus",
+        heroSubtitle: "Mirror of your ideas.",
+        cta: "Order Now",
+        servicesTitle: "My Services",
+        servicesDesc: "I provide the following:",
+        footerDesc: "Mirror of your ideas.",
+        settings: "SETTINGS",
+        theme: "Appearance",
+        dark: "Dark Mode",
+        light: "Light Mode",
+        colors: "Colors",
+        language: "Language",
+        links: "Quick Links",
+        contact: "Connect with me",
+        legal: "Legal",
+        terms: "Terms & Conditions",
+        cookies: "Cookie Policy",
+        rights: "All rights reserved.",
+        followMe: "Follow Me",
+        tiktok: "TikTok",
+        instagram: "Instagram",
+        available: "Available for new projects",
+        socials: "Social Media",
+        nav: { home: "Home", services: "Services", work: "Work", contact: "Contact" },
+        orderForm: {
+            title: "Order a New Project",
+            subtitle: "Fill in the details below and I will get back to you shortly.",
+            name: "First and Last Name",
+            idea: "Project Idea",
+            deadline: "Deadline",
+            budget: "Wage",
+            notes: "Extra Notes (Optional)",
+            contact: "Alternative Contact (Optional)",
+            payment: "Preferred Payment Method",
+            country: "Country",
+            city: "City / Region (Optional)",
+            submitWhatsApp: "Send via WhatsApp",
+            submitTelegram: "Send via Telegram",
+            submitEmail: "Send via Gmail",
+            copiedMsg: "Order copied! Please paste it in the chat",
+            validationMsg: "Please fill in all required fields",
+            msgLabels: {
+                title: "🚀 New Project Request",
+                name: "👤 Name",
+                country: "🌍 Country",
+                city: "📍 City / Region",
+                idea: "💡 Project Idea",
+                deadline: "⏱️ Deadline",
+                budget: "💰 Expected Wage",
+                alt_contact: "📱 Alternative Contact",
+                payment: "💳 Payment Method",
+                notes: "📝 Extra Notes"
+            },
+            close: "Close",
+            paymentMethods: [
+                "Visa / Card",
+                "Wish Money",
+                "OMT",
+                "Western Union",
+                "Cash",
+                "Other"
+            ]
+        },
+        footerLinks: { about: "About Me", services: "Services", work: "My Work" },
+        serviceItems: [
+            {
+                title: "Web Development",
+                features: ["Modern & Attractive Designs", "Easy-to-use Control Panel", "Lifetime Maintenance Warranty"],
+                svgPath: "M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
+            },
+            {
+                title: "Website Maintenance",
+                features: ["Fixing Issues", "Design Improvements"],
+                svgPath: "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+            }
+        ]
+    },
+    fr: {
+        language: "fr",
+        dir: "ltr",
+        name: "carus",
+        heroTitle: "carus",
+        heroSubtitle: "Le miroir de vos idées.",
+        cta: "Commander",
+        servicesTitle: "Mes Services",
+        servicesDesc: "Je fournis ce qui suit :",
+        footerDesc: "Le miroir de vos idées.",
+        settings: "PARAMÈTRES",
+        theme: "Apparence",
+        dark: "Mode Sombre",
+        light: "Mode Clair",
+        colors: "Couleurs",
+        language: "Langue",
+        links: "Liens Rapides",
+        contact: "Connectez-vous avec moi",
+        legal: "Légal",
+        terms: "Conditions Générales",
+        cookies: "Politique de Cookies",
+        rights: "Tous droits réservés.",
+        followMe: "Suivez-moi",
+        tiktok: "TikTok",
+        instagram: "Instagram",
+        available: "Disponible pour nouveaux projets",
+        socials: "Réseaux Sociaux",
+        nav: { home: "Accueil", services: "Services", work: "Travaux", contact: "Contact" },
+        orderForm: {
+            title: "Commander un Projet",
+            subtitle: "Remplissez les détails ci-dessous et je vous recontacterai bientôt.",
+            name: "Prénom et Nom",
+            idea: "Idée du Projet",
+            deadline: "Délai",
+            budget: "Salaire",
+            notes: "Remarques Supplémentaires (Optionnel)",
+            contact: "Contact Alternatif (Optionnel)",
+            payment: "Méthode de Paiement",
+            country: "Pays",
+            city: "Ville / Région (Optionnel)",
+            submitWhatsApp: "Envoyer via WhatsApp",
+            submitTelegram: "Envoyer via Telegram",
+            submitEmail: "Envoyer via Gmail",
+            copiedMsg: "Commande copiée ! Veuillez la coller dans le chat",
+            validationMsg: "Veuillez remplir tous les champs obligatoires",
+            msgLabels: {
+                title: "🚀 Nouvelle Demande de Projet",
+                name: "👤 Nom",
+                country: "🌍 Pays",
+                city: "📍 Ville / Région",
+                idea: "💡 Idée du Projet",
+                deadline: "⏱️ Délai",
+                budget: "💰 Salaire Prévu",
+                alt_contact: "📱 Contact Alternatif",
+                payment: "💳 Mode de Paiement",
+                notes: "📝 Notes Supplémentaires"
+            },
+            close: "Fermer",
+            paymentMethods: [
+                "Visa / Card",
+                "Wish Money",
+                "OMT",
+                "Western Union",
+                "Cash",
+                "Autre"
+            ]
+        },
+        footerLinks: { about: "À propos de moi", services: "Services", work: "Mes Travaux" },
+        serviceItems: [
+            {
+                title: "Développement Web",
+                features: ["Designs Modernes et Attrayants", "Panneau de Contrôle Facile à Utiliser", "Garantie de Maintenance à Vie"],
+                svgPath: "M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
+            },
+            {
+                title: "Maintenance Web",
+                features: ["Résolution de Problèmes", "Amélioration du Design"],
+                svgPath: "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+            }
+        ]
+    }
+};
